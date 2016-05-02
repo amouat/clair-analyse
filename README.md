@@ -8,11 +8,11 @@ scanner](https://github.com/coreos/clair).
 
 Usage is:
 
-   $ docker run -it \
-       --net clair-container-network \
-       -v /var/run/docker.sock:/var/run/docker.sock \
-       --name analyser \
-       amouat/clair-analyse -endpoint http://clair:6060 -my-address analyser image-to-scan
+    $ docker run -it \
+        --net clair-container-network \
+        -v /var/run/docker.sock:/var/run/docker.sock \
+        --name analyser \
+        amouat/clair-analyse -endpoint http://clair:6060 -my-address analyser image-to-scan
 
 This assumes Clair is running in container available as "clair" on
 "clair-container-network". It's necessary to give the container a name (such as
