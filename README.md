@@ -21,5 +21,5 @@ transferring the image to analyse.
 
 Docker is installed in the image and the socket mounted for access to images. It
 would be cleaner to only install the Docker client and to avoid the
-get.docker.com script.
+http://get.docker.com script, but this was easier.
 
