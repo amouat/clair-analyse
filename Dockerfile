@@ -1,4 +1,4 @@
-FROM golang:1.5
+FROM golang:1.6
 
 # Should really use apt-get and check sources
 # But this was quick and easy
